@@ -1,15 +1,11 @@
-import React, {FC} from "react";
-import './index.css'
+import React, { FC } from 'react';
+import './index.css';
 
 interface IWrapper {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 
-const Wrapper: FC<IWrapper> = ({children}) => {
-    return (
-            <div className="wrapper">
-                {children}
-            </div>
-    )
-}
-export default Wrapper
+const Wrapper: FC<IWrapper> = ({ children }) => {
+  return <div className='wrapper'>{children}</div>;
+};
+export default Wrapper;
