@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+### ЗАДАЧА
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Необходимо сделать интерфейс терминала по заказу кофе.
+
+Должна быть возможность выбора или отмены компонентов на этапе формирования заказа.
+1. Есть несколько видов базового напитка (зерна, тип обжарки и т.д.)
+2. Есть несколько видов дополнений (сиропы, корица, сахар и т.д.)
+3. Варианты сервировки (с собой в стаканчике, на месте в чашке и т.д.)
+
+У каждого из опций 1-2 есть своя стоимость, которая прибавляется к заказу.
+Окно должно предоставлять выбор этих компонентов, при нажатии "Заказать" должен формироваться корректный заказ из трех частей и подсчетом стоимости.
+
+Используйте React, компоненты-функции, TypeScript, композицию Containers and presentational components, Context, Reducer.
+
+## Пояснения
+В связи с тем, что это интерфейс терминала, я допустил упрощения следующего рода:
+1. Не был сосредоточен на верстке для мобильных устройств или даже в целом под разные экран
+2. Так как это терминал по заказу кофе state полностью локальный и изменения в типе предоставляемых товаров вряд ли будут.
+
 
 ## Available Scripts
 
@@ -22,32 +38,3 @@ information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will
-remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right
-into your project so you have full control over them. All of the commands except `eject` will still work, but they will
-point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you
-shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in
-the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
