@@ -41,6 +41,7 @@ const OrderModal: FC<IDrinkOptions> = ({
   const totalPrice =
     options.size.price +
     options.sweet.reduce((sum, current) => sum + current.price, 0);
+  // }
 
   return (
     <div className='card'>
