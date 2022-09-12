@@ -9,7 +9,7 @@ import Modal from './components/Modal';
 import useModal from './hooks/useModal';
 import OrderModal from './components/OrderModal';
 import { drinksContext, DrinksContextProvider, store } from './store/context';
-import { IDrink } from './types/interfaces';
+import { IDrink } from './types';
 
 function App() {
   const { isShown, toggle } = useModal();
